@@ -1,6 +1,5 @@
 import React from "react";
 import "./table.css";
-import User from "../../img/Active.svg";
 import { Data } from "../APi/Data";
 const Table = () => {
   return (
