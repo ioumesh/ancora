@@ -14,7 +14,7 @@ const Table = () => {
         </tr>
         {Data.map((val, key) => {
           return (
-            <tr>
+            <tr className="details">
               <td>
                 <div className="userWrapper">
                   <img className="userPic" src={val.img} alt="user" />
