@@ -15,6 +15,7 @@ table {
 
 th {
   background-color: var(--gray);
+  padding: 20px;
 }
 
 td {
@@ -27,9 +28,10 @@ td {
 }
 
 .userWrapper {
+  margin-left: 50px;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .userWrapper img {
@@ -37,4 +39,16 @@ td {
   height: 48px;
   background-color: rgb(151, 166, 216);
   border-radius: 50%;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+}
+.userName {
+  display: flex;
+}
+
+.userEmail {
+  display: flex;
 }

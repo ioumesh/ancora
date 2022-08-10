@@ -18,8 +18,10 @@ const Table = () => {
               <td>
                 <div className="userWrapper">
                   <img className="userPic" src={val.img} alt="user" />
-                  <span className="userName">{val.name}</span>
-                  <span className="userEmail">{val.email}</span>
+                  <div className="userDetails">
+                    <span className="userName">{val.name}</span>
+                    <span className="userEmail">{val.email}</span>
+                  </div>
                 </div>
               </td>
               <td>
