@@ -49,3 +49,21 @@
   height: 48px;
   border-radius: 50%;
 }
+.userName {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+  color: #6e6b7b;
+}
+.userAccess {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 18px;
+  text-align: right;
+  color: #b9b9c3;
+}

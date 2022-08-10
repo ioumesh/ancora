@@ -18,8 +18,8 @@ const Topbar = () => {
       <div className="right">
         <div className="profileWrapper">
           <div className="profileDetails">
-            <span>John Doe</span>
-            <span>Super Admin</span>
+            <span className="userName">John Doe</span>
+            <span className="userAccess">Super Admin</span>
           </div>
           <div className="profilePic">
             <img src={User} alt="profile-pic" />

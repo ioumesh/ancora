@@ -25,13 +25,13 @@ const Table = () => {
                 </div>
               </td>
               <td>
-                <span>{val.crn}</span>
+                <span className="crn">{val.crn}</span>
               </td>
               <td>
-                <span>{val.group}</span>
+                <span className="group">{val.group}</span>
               </td>
               <td>
-                <span>{val.Billing}</span>
+                <span className="billing">{val.Billing}</span>
               </td>
               <td>
                 <div className="actionDot"></div>
