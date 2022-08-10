@@ -1,0 +1,42 @@
+export const Data = [
+  {
+    img: "",
+    name: "Myra Foster",
+    email: "wiwlirug@talgajup.co.uk",
+    crn: "KC001",
+    group: "Enterprise",
+    Billing: "Auto Debit",
+  },
+  {
+    img: "",
+    name: "Sweden",
+    email: "nilrebfo@juka.com",
+    crn: "MR1917743692",
+    group: "Company",
+    Billing: "Manual - Credit Card",
+  },
+  {
+    img: "",
+    name: "Matilda Robertson",
+    email: "besew@roer.edu",
+    crn: "MR1917743692",
+    group: "Basic",
+    Billing: "Manual - Paypal",
+  },
+  {
+    img: "",
+    name: "French Southern Territories",
+    email: "vo@ri.io",
+    crn: "MR1917743692",
+    group: "Enterprise",
+    Billing: "Auto Debit",
+  },
+  {
+    img: "",
+    name: "Martha Barnes",
+    email: "jufuva@vauldas.org",
+    crn: "MR1917743692",
+    group: "Company",
+    Billing: "Manual - Cash",
+  },
+];

@@ -1,0 +1,51 @@
+.topbarWrapper {
+  display: flex;
+  align-items: center;
+  padding: 22px;
+  background-color: var(--white);
+}
+
+.left {
+  flex: 2;
+  display: flex;
+}
+.menuWrapper ul {
+  margin-left: 100px;
+  list-style: none;
+  display: flex;
+  gap: 5rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 17px;
+  cursor: pointer;
+}
+.menuWrapper ul li:hover {
+  color: var(--heading);
+}
+.active {
+  color: var(--heading);
+}
+.right {
+  flex: 1;
+}
+
+.profileWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+}
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.profilePic {
+  display: flex;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}

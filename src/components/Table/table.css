@@ -1,0 +1,27 @@
+.tableWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+  padding: 22px;
+}
+
+table {
+  border: 2px solid var(--gray);
+  width: 100%;
+  height: 200px;
+}
+
+th {
+  background-color: var(--gray);
+}
+
+td {
+  text-align: center;
+}
+
+.actionDot:after {
+  content: "\2807";
+  font-size: 20px;
+}
