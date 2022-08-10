@@ -1,6 +1,6 @@
 export const Data = [
   {
-    img: "",
+    img: "./img/user1.svg",
     name: "Myra Foster",
     email: "wiwlirug@talgajup.co.uk",
     crn: "KC001",
@@ -8,7 +8,7 @@ export const Data = [
     Billing: "Auto Debit",
   },
   {
-    img: "",
+    img: "./img/user2.svg",
     name: "Sweden",
     email: "nilrebfo@juka.com",
     crn: "MR1917743692",
@@ -16,7 +16,7 @@ export const Data = [
     Billing: "Manual - Credit Card",
   },
   {
-    img: "",
+    img: "./img/user3.svg",
     name: "Matilda Robertson",
     email: "besew@roer.edu",
     crn: "MR1917743692",
@@ -24,7 +24,7 @@ export const Data = [
     Billing: "Manual - Paypal",
   },
   {
-    img: "",
+    img: "./img/user4.svg",
     name: "French Southern Territories",
     email: "vo@ri.io",
     crn: "MR1917743692",
@@ -32,7 +32,7 @@ export const Data = [
     Billing: "Auto Debit",
   },
   {
-    img: "",
+    img: "./img/user1.svg",
     name: "Martha Barnes",
     email: "jufuva@vauldas.org",
     crn: "MR1917743692",
