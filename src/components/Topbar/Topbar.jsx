@@ -1,17 +1,25 @@
 import React from "react";
 import "./topbar.css";
 import User from "../../img/Active.svg";
-// import Dot from "../img/";
+import { NavLink } from "react-router-dom";
 const Topbar = () => {
   return (
     <div className="topbarWrapper">
       <div className="left">
         <div className="menuWrapper">
           <ul>
-            <li className="active">Customer Management</li>
-            <li>Customer List</li>
-            <li>Groups</li>
-            <li>Profile</li>
+            <li className="active">
+              <NavLink to="/"> Customer Management</NavLink>
+            </li>
+            <li>
+              <NavLink to="customer"> Customer List</NavLink>
+            </li>
+            <li>
+              <NavLink to="group"> Groups</NavLink>
+            </li>
+            <li>
+              <NavLink to="profile"> Profile</NavLink>
+            </li>
           </ul>
         </div>
       </div>

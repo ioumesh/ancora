@@ -24,8 +24,10 @@
 .menuWrapper ul li:hover {
   color: var(--heading);
 }
-.active {
-  color: var(--heading);
+
+a {
+  text-decoration: none;
+  color: #000000;
 }
 .right {
   flex: 1;
