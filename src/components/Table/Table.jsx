@@ -6,7 +6,7 @@ const Table = () => {
     <div className="tableWrapper">
       <table>
         <tr>
-          <th>Name</th>
+          <th className="name">Name</th>
           <th>CRN</th>
           <th>GROUP</th>
           <th>BILLING</th>

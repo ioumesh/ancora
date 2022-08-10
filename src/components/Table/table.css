@@ -25,8 +25,11 @@ th {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #5e5873;
+  text-align: start;
 }
-
+td {
+  text-align: start;
+}
 .actionDot:after {
   content: "\2807";
   font-size: 20px;
@@ -75,7 +78,6 @@ th {
 }
 
 .crn {
-  display: flex;
   align-items: center;
   font-family: "Montserrat";
   font-style: normal;
@@ -86,7 +88,6 @@ th {
 }
 
 .group {
-  display: flex;
   align-items: center;
   font-family: "Montserrat";
   font-style: normal;
@@ -97,7 +98,6 @@ th {
 }
 
 .billing {
-  display: flex;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
